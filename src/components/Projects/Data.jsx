@@ -1,10 +1,11 @@
 import banImg from "../../assets/banner-image.svg";
+import mob from "../../assets/mobile.jpg"
 const Data = [
     {
       id:1,
       title: "Dis-patch",
       description: "Using React and Firebase",
-      img:banImg,
+      img:mob,
       projectUrl: "https://dis-patch.vercel.app/"
     },
     {

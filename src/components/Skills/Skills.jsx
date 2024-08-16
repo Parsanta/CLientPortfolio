@@ -61,7 +61,7 @@ const Skills = () => {
       >
         <div className="px-5" id="skills">
           <div className="flex flex-col mt-5">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-blue-700 font-nunito">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-blue-500 font-nunito">
               Technologies I work with
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 gap-8">

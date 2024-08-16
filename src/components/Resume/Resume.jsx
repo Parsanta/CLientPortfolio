@@ -1,5 +1,5 @@
 import ban from "../../assets/ban.svg";
-import Data from "./data";
+import EduData from "./data";
 import Card from "./Card";
 import {motion} from "framer-motion"
 export default function Resume() {
@@ -19,7 +19,7 @@ export default function Resume() {
           transition: { duration: 0.9, delay: 0.3 },
         }}className="bg-blue-100 p-4 rounded-lg relative shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-gray-700 font-nunito ">Education</h3>
-            {Data.map((val, id) => {
+            {EduData.map((val, id) => {
               if (val.category === "education") {
                 return (
                   <Card
@@ -41,7 +41,7 @@ export default function Resume() {
           transition: { duration: 0.9, delay: 0.5 },
         }}className="bg-blue-100 p-7 rounded-lg relative shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-gray-700 font-nunito">Experience</h3>
-            {Data.map((val, index) => {
+            {EduData.map((val, index) => {
               if (val.category === "experience") {
                 return (
                   <Card

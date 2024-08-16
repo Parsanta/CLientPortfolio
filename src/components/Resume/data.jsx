@@ -1,9 +1,9 @@
-const Data = [
+const EduData = [
   {
     id: 1,
     category: "education",
     icon: "icon-graduation",
-    year: "2019-present",
+    year: "2017-2018",
     title: "B.Tech in Computer Science and Engineering",
     description:
       "I have completed my B.Tech in Computer Science ",
@@ -12,17 +12,8 @@ const Data = [
     id: 2,
     category: "education",
     icon: "icon-graduation",
-    year: "2019-present",
-    title: "B.Tech in Computer Science and Engineering",
-    description:
-      "I have completed my B.Tech in Computer Science ",
-  },
-  {
-    id: 3,
-    category: "education",
-    icon: "icon-graduation",
-    year: "2019-present",
-    title: "B.Tech in Computer Science and Engineering",
+    year: "2018-2022",
+    title: "Bachelor's degree, Computer Science",
     description:
       "I have completed my B.Tech in Computer Science ",
   },
@@ -30,29 +21,20 @@ const Data = [
     id: 4,
     category: "experience",
     icon: "icon-graduation",
-    year: "2019-present",
-    title: "B.Tech in Computer Science and Engineering",
+    year: "Jun'21-Nov'21",
+    title: "Junior Flutter Developer ",
     description:
-      "I have completed my B.Tech in Computer Science",
+      "APPICK",
   },
   {
     id: 5,
     category: "experience",
     icon: "icon-graduation",
-    year: "2019-present",
-    title: "B.Tech in Computer Science and Engineering",
+    year: "Feb'2022-present",
+    title: "Junior Software Engineer",
     description:
-      "I have completed my B.Tech in Computer Science ",
-  },
-  {
-    id: 6,
-    category: "experience",
-    icon: "icon-graduation",
-    year: "2019-present",
-    title: "B.Tech in Computer Science and Engineering",
-    description:
-      "I have completed my B.Tech in Computer Science ",
+      "Love For Data",
   }
 ];
 
-export default Data;
+export default EduData;

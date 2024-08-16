@@ -61,7 +61,7 @@ export default function Home() {
               alt="banner image"
               className="w-40 h-auto mb-3 mx-auto md:mx-0 animate-fadeIn"
             />
-            <h1 className="font-bold text-4xl mb-2 text-blue-900 font-nunito">{text}</h1>
+            <h1 className="font-bold text-4xl mb-2 text-blue-500 font-nunito">{text}</h1>
             <p className="text-gray-600 text-lg mb-4">
               I'm a Flutter developer passionate about creating amazing apps.
             </p>
@@ -107,9 +107,8 @@ export default function Home() {
                 whileTap={{ rotate: -2, scale: 0.9 }}
                 transition={{ type: "spring", stiffness: 500, damping: 30 }}
                 className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 mb-4 mr-2"
-                href="#contact"
               >
-                Hire Me
+                <a href="#contact"> Hire Me </a>
               </motion.button>
               <a
                 href="#about"

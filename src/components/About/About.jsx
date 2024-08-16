@@ -16,7 +16,7 @@ export default function About() {
         }}
         className="container mx-auto px-4 md:px-8"
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-5 text-blue-700 font-nunito">
+        <h2 className="text-3xl md:text-4xl font-bold mb-5 text-blue-500 font-nunito">
           ABOUT ME
         </h2>
 
@@ -41,9 +41,9 @@ export default function About() {
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 500, damping: 30 }}
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 mb-2"
-          href="#contact"
         >
-          Hire Me
+          <a href="#contact"> Hire Me </a>
+          
         </motion.button>
       </motion.div>
     </section>
